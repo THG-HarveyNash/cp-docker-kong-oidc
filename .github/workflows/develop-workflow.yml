@@ -9,7 +9,7 @@ env:
   OWNER_REPO: thg-harveynash
   REPO: ghcr.io/thg-harveynash/${{ github.event.repository.name }}
   IMAGE_NAME: ghcr.io/thg-harveynash/${{ github.event.repository.name }}
-  IMAGE_TAG: 3.0.0-7
+  IMAGE_TAG: 3.0.0-8
   GRGIT_USER: ${{ github.actor }}
   GRGIT_PASS: ${{ secrets.CP_TOKEN }}
 

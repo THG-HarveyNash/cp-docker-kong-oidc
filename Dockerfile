@@ -93,6 +93,7 @@ set \$session_shm_lock_max_step \${{X_SESSION_SHM_LOCK_MAX_STEP}};\n\
     && sed -i "/\]\]/i\ \n\
 x_session_storage = cookie\n\
 x_session_name = oidc_session\n\
+x_session_cookie_domain = ''\n\
 x_session_compressor = 'none'\n\
 x_session_secret = ''\n\
 \n\
